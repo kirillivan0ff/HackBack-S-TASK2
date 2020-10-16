@@ -6,10 +6,7 @@ ACTIVE = False
 NUMBER = float(0)
 DEFAULT_PAGE = str(urllib.request.urlopen("http://10.10.230.181:3010/").read())
 PORT = int(DEFAULT_PAGE[int(DEFAULT_PAGE.find("onPort")) + 8 : int(DEFAULT_PAGE.find("onPort")) + 12])
-PROC = ''
-PROC_NUM = 0
 HOST = '10.10.230.181'
-msg = ''
 SERVER_REPLY = ''
 STEP = 0
 
